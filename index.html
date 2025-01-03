@@ -2,7 +2,7 @@
   <head>
     <title>Image Slider</title>
     <style>
-/*       .slider-container{
+      .slider-container{
         position: relative;
         width: 80%;
         max-width:600px;
@@ -11,7 +11,7 @@
         border: 2px solid #ccc;
         border-radius: 10px;
       }
- */
+
       .slider-wrapper {
         display: flex;
         transition: transform 3.0s ease-in-out;
@@ -22,6 +22,25 @@
         height:auto;
       }
 
+      .nav-button {
+        position:absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        baclground-color: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .prev {
+        left: 10px;
+      }
+
+      .next{
+        right: 10px;
+      }
       
 
       
@@ -31,16 +50,18 @@
   </head>
   <body>
     <!-- slider-container-->
-<!--     <div class = "slider-container"> -->
+    <div class = "slider-container">
       <!-- slider wrapper -->
       <div class = "slider-wrapper">
         <img src = "SampleStar/IMG_6570.JPG">
         <img src = "SampleStar/IMG_6593.JPG">
       </div> 
-<!--       <button class = "nav-button prev">◀︎</button>
+      
+      <button class = "nav-button prev">◀︎</button>
       <button class = "nav-button next">▶︎</button>
+      
     </div>
- -->
+
     <script src = "index.js" charset = "utf-8"></script>
   </body>
 </html>
