@@ -3,7 +3,7 @@ const sliderWrapper = document.querySelector('.slider-wrapper');
 const images = document.querySelectorAll('.slider-wrapper img');
 
 //button 
-const prevButton = document.querySelector('.prev');
+// const prevButton = document.querySelector('.prev');
 const nextButton = document.querySelector('.next');
 
 let currentIndex = 0;
@@ -24,7 +24,7 @@ const updateSlider = () => {
 };
 //addEventLisnter
 nextButton.addEventListener('click', showNextSlide);
-prevButton.addEventListener('click', showPrevSlide);
+// prevButton.addEventListener('click', showPrevSlide);
 
 
 // setInterval(showNextSlide, 3000);
